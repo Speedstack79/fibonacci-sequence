@@ -1,0 +1,26 @@
+<script>
+function fib(number){
+  if (number == 0){
+    return 0;
+  }else if (number == 1){
+    return 1;
+  }else{
+    return fib(number-1) + fib(number-2)
+  }
+}
+</script>
+
+<html>
+  <body>
+    <div>
+      <h1>
+          the answer to nth number in the fibonacci sequence.
+      </h1>
+      <p id="fibAnswer"></p>
+      <script>
+          var nth = fib(10);
+          document.getElementById("fibAnswer").innerHTML = nth;
+      </script>
+    </div>
+  </body>
+</html>
