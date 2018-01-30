@@ -1,2 +1,2 @@
 # fibonacci-sequence
-This is the fibonacci sequence made with html and javascript
+This is a fibonacci sequence calculator made with html and javascript
